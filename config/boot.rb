@@ -2,6 +2,7 @@
 # Configure your app in config/environment.rb and config/environments/*.rb
 
 begin
+  require 'thread'
   require "rubygems"
   require "bundler"
 rescue LoadError
